@@ -1,0 +1,208 @@
+<resources>
+
+    <!-- Logging strings -->
+    <!-- All string messages will be kept under resources -->
+    <string name="clearing_all_data_lists">Clearing all data lists</string>
+    <string name="locations_not_enabled_inside_service">Locations are not enabled inside Location Services still</string>
+    <string name="enable_locations">Please Enable Location for Spatially!</string>
+    <string name="need_valid_name_for_fence">Please enter a valid name for the fence!</string>
+    <string name="fence_added">Fence added successfully!</string>
+    <string name="permission_denied_request_cancelled">Permission was denied or request was cancelled</string>
+    <string name="fine_denied_using_coarse_instead">Permission was denied for fine accuracy, using coarse accuracy instead!</string>
+    <string name="error_try_again">An error occurred, please try again!</string>
+    <string name="check_credentials_try_again">Please check your credentials and try again</string>
+    <string name="fence_edited">Fenced edited</string>
+    <string name="edit_fence_cancelled">Fence edit cancelled</string>
+    <string name="fence_removed">has been removed!</string>
+    <string name="friend_removed">has been removed!</string>
+    <string name="error_occurred">An error occurred!</string>
+    <string name="getting_data_from_server">Fetching data from server</string>
+    <string name="getting_fences_list">Getting fences list from server</string>
+    <string name="setting_up_vm_observer">Setting up view model data observer</string>
+    <string name="writing_fences_list">Writing fences list</string>
+    <string name="getting_friends_list">Getting friends list from server</string>
+    <string name="reading_friends_list">Reading friends list</string>
+    <string name="writing_friends_list">Writing friends list</string>
+    <string name="writing_data_to_vm">Writing data to view model</string>
+    <string name="get_battery_level">Getting battery level</string>
+    <string name="no_such_lba">No such LBA</string>
+    <string name="lba_already_exists">LBA already exists!</string>
+    <string name="your_account_has_been_deleted">Your account has been deleted</string>
+    <string name="accurate_location_requested">Accurate location requested!</string>
+    <string name="entering_go_offline">Entering go offline</string>
+    <string name="exiting_go_offline">Exiting go offline</string>
+    <string name="host_and_port_not_found_using_default">Host and Port not found, using default values instead!</string>
+    <string name="unable_to_login">Unable to login!</string>
+    <string name="spatially_requires_internet">Spatially requires internet!</string>
+    <string name="must_enable_internet_for_spatially">You must enable Internet access to use Spatially!</string>
+    <string name="loading_location_data">Loading location data...</string>
+    <string name="loading_movement_data">Loading movement data...</string>
+    <string name="control_map_for_zoom">Control map to change zoom!</string>
+    <string name="click_on_friend_marker_first">Please click on a friend\'s marker on the map first!</string>
+    <string name="showing_4_hour_history">Showing 4 hour history</string>
+    <string name="showing_8_hour_history">Showing 8 hour history</string>
+    <string name="please_check_input_try_again">Please check your input and try again!</string>
+    <string name="password_is_changed">Your password has been changed successfully!</string>
+    <string name="check_email_to_activate">Registration successful. Please check your email and activate the account</string>
+    <string name="user_already_exists">User already exists</string>
+    <string name="error_sending_location_to_spatially">Error sending location data to Spatially!</string>
+    <string name="logging_enabled">Logging enabled in the app!</string>
+    <string name="logging_disabled">Logging disabled in the app!</string>
+    <string name="fence_updated">Fence updated!</string>
+
+    <string name="app_name">Spatially</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_map">Map</string>
+    <string name="title_fences">Fences</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_help">Help</string>
+
+    <string name="Add_friend_tooltip">Click here to add a friend!</string>
+    <string name="Add_fence_tooltip">Click here to add a fence!</string>
+
+    <!-- Google Maps Key -->
+    <string name="google_maps_key"
+        templateMergeStrategy="preserve"
+        translatable="false">AIzaSyDtIr6X49dPVgHt-XwAsmRMYWpUDZoHrrk
+    </string>
+
+    <!-- Strings related to Spatially -->
+    <string name="SPATIALLY_HOST_TEXT">Spatially Host (URL)</string>
+    <string name="SPATIALLY_PORT_TEXT">Spatially Port</string>
+    <string name="SPATIALLY_HOST">https://sandbox.eternalobjects.com</string>
+    <string name="SPATIALLY_PORT">443</string>
+
+    <!-- Shared Preferences data, by default stored in .xml file -->
+    <string name="spatially_shared_pref_file">spatially_shared_pref_file</string>
+
+    <!-- Key/Value pair related to Spatially -->
+    <string name="title_activity_ip_settings">ip_settings</string>
+
+    <string name="Clear">Clear</string>
+    <string name="Edit">Edit</string>
+    <string name="Done">Done</string>
+    <string name="Fences">Fences</string>
+
+    <!-- Number of decimal places for Decimal Format #.### -->
+    <string name="No_of_Decimals_for_edit_fence">#.###</string>
+    <string name="No_of_Decimals_for_add_fence">#.###</string>
+    <string name="No_of_Decimals_for_gps">#.###</string>
+    <string name="No_of_Decimals_for_battery">#.#</string>
+
+    <!-- Number of decimal places for Last Seen in User Info -->
+    <string name="No_of_Decimals_for_Last_Seen">#.#</string>
+
+    <!-- Friends Batteryview Colours -->
+    <string name="batteryView">#000000</string>
+
+    <!-- Delete Vibration Time in ms -->
+    <string name="fence_delete_vibration_time">100</string>
+
+    <string name="friend_delete_vibration_time">100</string>
+
+    <!-- Pulltorefresh Delay in ms -->
+    <string name="pull_to_refresh_delay">2000</string>
+
+    <!-- Pulltorefreshdelay vibration time in ms -->
+    <string name="pull_to_refresh_vibration_time">200</string>
+
+    <!-- These are the two parameters for requestLocationUpdates for locationlistener -->
+    <!-- minimumUpdateTimeIntervalinMilliSeconds -->
+    <string name="minimumUpdateTimeIntervalinMilliSeconds">30000</string>
+
+    <!-- Since our minimum distance before location updates are sent to spatially, we use that same value for listener too -->
+    <!-- minimumDistanceBetweenUpdatesinMeters from 0.5 to 50 -->
+    <string name="minimumDistanceBetweenUpdatesinMeters">0.5</string>;
+
+    <!-- MainActivity heartbeat Timer delay in min -->
+    <string name="mainactivity_heartbeatDelaymin">30</string>
+
+    <!-- Check for notifications rate in min -->
+    <string name="notifications_list_check_rate">15</string>
+
+    <!-- Check for fences rate in min -->
+    <string name="fences_list_check_rate">15</string>
+
+    <!-- Check for friends rate in min -->
+    <string name="friends_list_check_rate">15</string>
+
+    <!-- Google maps friends movement update rate in min -->
+    <string name="friends_movement_check_rate_in_min">16</string>
+
+    <!-- Google maps show all friends update rate in min -->
+    <string name="show_all_friends_check_rate">16</string>
+
+    <!-- four hour offset in s (unix time) -->
+    <string name="four_hour_offset">14400</string>
+
+    <!-- eight hour offset in s (unix time) -->
+    <string name="eight_hour_offset">28800</string>
+
+    <!-- 1 min to ms conversion -->
+    <string name="one_min_to_ms">60000</string>
+
+    <!-- reset item in list to normal position delay time in seconds -->
+    <string name="normal_location_delay">6</string>
+
+    <!-- reset item in list to normal position after delete cancelled seconds -->
+    <string name="delete_cancel_delay">1</string>
+
+    <!-- 1 s to ms conversion -->
+    <string name="one_second_to_ms">1000</string>
+
+    <!-- friendslist trash icon width -->
+    <string name="friendslist_trash_width">80</string>
+
+    <!-- fenceslist trash icon width -->
+    <string name="fenceslist_left_swipe_limit">50</string>
+
+    <!-- Login time out for OkHttp -->
+    <string name="login_timeout_seconds">60</string>
+
+    <!-- Show all friends - Long Press Marker Add Fence distance threshold in meters - Approximately for a finger-->
+    <string name="long_press_marker_add_fence_distance_threshold">500000</string>
+
+    <!-- User signification movement before sending data to server (meters) -->
+    <string name="SIGNIFICANT_MOVE">50</string>
+
+    <!-- User significant accuracy change before sending data to server (meters) -->
+    <string name="SIGNIFICANT_ACCURACY_CHANGE">250</string>
+
+    <!-- Bounds padding for friends_movement in pixels (px). This value will affect view when seeing movement -->
+    <string name="bounds_padding_in_px">200</string>
+
+    <!-- Generic Log TAG name -->
+    <string name="TAG">SPATIALLY</string>
+    <string name="location">LOCATION</string>
+
+    <!-- Boolean logging -->
+    <bool name="logging">true</bool>
+
+    <!-- Boolean detailed errors for exceptions -->
+    <bool name="Errors">false</bool>
+
+    <!-- Fences list delay time before entire list is reset to normal position in seconds-->
+    <string name="edit_fences_restore_time_delay">5000</string>
+
+    <!-- Update rate for general data in min -->
+    <string name="data_update_time">15</string>
+
+    <!-- Animation change duration for notifyitemchanged in ms -->
+    <string name="notify_item_changed_duration">500</string>
+
+    <!-- Vibration duration for swipe in ms -->
+    <string name="vibration_duration_for_swipe">200</string>
+
+    <string name="go_offline_info">Go offline to hide your movements from all friends. While you are offline, your friends cannot track your movements. You cannot view your friends and no alerts will be sent to you while offline. Live location reports your most accurate location. You can disable live location to save battery.</string>
+    <string name="permissions_code">1</string>
+
+    <string name="fused_location_provider_client_setFastestInterval">1000</string>
+
+    <!-- zoom levels -->
+    <string name="gps_zoomlevel">17</string>
+    <string name="addfence_zoomlevel">8</string>
+    <string name="view_fence_zoom_level">10</string>
+
+
+</resources>
+

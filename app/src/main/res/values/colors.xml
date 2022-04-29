@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Some basic app colours -->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#009688</color>
+    <color name="RED">#F44336</color>
+    <color name="BLUE">#03A9F4</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLACK">#000000</color>
+    <color name="Selected">#007a9f</color>
+
+    <color name="self_info_grey_item">#02000000</color>
+
+    <!-- Friends list Information Icon Tint Colour -->
+    <!-- Selected Tint -->
+    <color name="Information_Tint">#03A9F4</color>
+
+    <!-- Disabled Tint -->
+    <color name="Information_Tint_Disabled">#AAC4DA</color>
+
+    <!-- Colours for battery related information -->
+    <color name="battery_100">#00FD00</color>
+    <color name="battery_80">#00FF00</color>
+    <color name="battery_60">#47E643</color>
+    <color name="battery_40">#FF8000</color>
+    <color name="battery_20">#ff0000</color>
+    <color name="battery_0">#000000</color>
+    <color name="Battery_GREEN">#00FB00</color>
+    <color name="Battery_YELLOW">#fcc200</color>
+
+    <!-- Fence border and fill colours for edit_fence -->
+    <color name="edit_fence_fill_colour">#6666ff66</color>
+    <color name="edit_fence_border_colour">#66ff66</color>
+
+    <!-- Fence border and fill colours for add_fence -->
+    <color name="add_fence_fill_colour">#6666ff66</color>
+    <color name="add_fence_border_colour">#66ff66</color>
+
+    <!-- View Fence and Friend's Movement have transparency -->
+    <!-- Fence border and fill colours for view_fence -->
+    <color name="view_fence_fill_colour">#6666ff66</color>
+    <color name="view_fence_border_colour">#66ff66</color>
+
+    <!-- Fence border and fill colours for getfriends_movement -->
+    <color name="friends_movement_fence_fill_colour">#66FF7F7F</color>
+    <color name="friends_movement_fence_stroke_colour">#ff7f7f</color>
+
+    <!-- Colours of menu items in bottom navigation menu -->
+    <color name="checked_item_colour">#03A9F4</color>
+    <color name="unchecked_item_colour">#848482</color>
+
+    <!-- Colour of delete_background_colour -->
+    <color name="delete_background_colour">#ff0000</color>
+
+
+
+</resources>
